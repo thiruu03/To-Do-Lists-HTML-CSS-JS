@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todolist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main"> 
+       <div class="main2">
+        <h2>To-do List</h2>
+        <input type="text" id="todo" placeholder="Enter a Task" required>
+        <button onclick="addTask()">Add to list</button>
+        <ol id="list">
+          <li>
+            Task1
+            <button onclick="clearElement(event)">done</button>
+          </li>
+        </ol>  
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
